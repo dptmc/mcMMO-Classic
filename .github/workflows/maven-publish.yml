@@ -25,4 +25,4 @@ jobs:
       run: mvn -B package --file pom.xml
     - uses: actions/upload-artifact@v4
       with:
-        path: /mcMMO-Classic/target/*.jar
+        path: /home/runner/work/mcMMO-Classic/mcMMO-Classic/target/*.jar
